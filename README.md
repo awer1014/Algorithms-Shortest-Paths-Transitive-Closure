@@ -1,0 +1,2 @@
+# Algorithms Shortest Paths & Transitive Closure
+ 1. 單一起點到所有目的地之最短路徑 (single source all destinations)  2. 任意兩點間的最短路徑 (all pairs shortest paths)  3. 計算出遞移封閉 (transitive closure)  問題 1 和 2  輸入：有向圖 G=(V, E) 和圖中各邊的權重 (成本、距離...) (問題1須另有一起點u)  輸出： 最短距離 shortest paths  需求功能:  1.亂數產生圖 G 的相鄰矩陣，其濃密或稀疏程度、有向或無向皆可調整，使用者可選擇是否要印出 (如下面提示圖)；  2.可用讀檔，讀入現有的相鄰矩陣(提示：參考老鼠走迷宮的讀檔)，以下為檔案範本，作業截圖時請用此範本可以對其進行更改但矩陣大致內容要相同(最大距離不同沒關係)。  超連結 : 相鄰矩陣範例檔 無向相鄰矩陣範例檔   3.找出單一起點到所有目的地之最短距離(single source all destinations)；  4.找出任意兩點間的最短距離 (all pairs shortest paths)；  5. 使用者可選擇是否要印出求算過程。
